@@ -42,7 +42,7 @@
 		{% for gift in gifts %}
 			<div class="gift-box">
 				<span class="gift-name">{{gift.0}}</span>
-				<span class="gift-image"><a href="{{gift.4}}"><img class="item-picture" src="{{gift.3}}"/></a></span>
+				<span class="gift-image"><a href="{{gift.4}}" target="_blank"><img class="item-picture" src="{{gift.3}}"/></a></span>
 				<div class="p-status">
 					<div title="Antal kvar" class="numbers-box" id="box{{gift.5}}">{{gift.6}}</div>
 					{% if gift.1 != gift.2%}
