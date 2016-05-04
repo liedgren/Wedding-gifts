@@ -17,6 +17,16 @@ html,body{
 	position: relative;
 }
 
+.description-text{
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5em;
+  font-family: "heart";
+}
+
 #header-content{
 	margin-top: 2em;
 	height: 15em;
